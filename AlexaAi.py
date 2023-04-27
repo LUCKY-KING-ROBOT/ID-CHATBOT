@@ -60,7 +60,7 @@ async def chatbot(client, message):
 ┣★ ʜᴇᴀʀᴛ ᴜs  [❤️ ꜱʜᴀyʀɪ ❤️](https://t.me/shayri_hit)
 ┣★ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs [ᴏᴜʀ ᴏᴛʜᴇʀ ʙᴏᴛs](https://t.me/DX_info)
 ┣★ ᴀʟᴇxᴀ ғᴇᴅ [💘 ɢʀᴏᴜᴩ 💘](https://t.me/DXinfo143)
-┣★ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://github.com/TheTeamAlexa/AlexaAiMachineBot)
+┣★ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://github.com/LUCKY-KING-ROBOT/ID-CHATBOT)
 ┣★ ɴᴇᴛᴡᴏʀᴋ [🦋ᴅx ɴᴀᴛᴡᴀᴋ🦋](https://t.me/DX_info143)
 ┗━━━━━━━━━━━━━━━━━┛
 💞 
@@ -92,9 +92,9 @@ async def chatbotofd(client, message):
     is_alexa = alexa.find_one({"chat_id": message.chat.id})
     if not is_alexa:
         alexa.insert_one({"chat_id": message.chat.id})
-        await message.reply_text(f"ᴄʜᴀᴛʙɪᴛ ɪs ᴅɪsᴀʙʟᴇᴅ ʙʏ {message.from_user.mention()} ғᴏʀ ᴜsᴇʀs ɪɴ {message.chat.title}")
+        await message.reply_text(f"ᴄʜᴀᴛʙɪᴛ ɪs [💘 ɢʀᴏᴜᴩ 💘](https://t.me/DXinfo143) ᴅɪsᴀʙʟᴇᴅ ʙʏ {message.from_user.mention()} ғᴏʀ ᴜsᴇʀs ɪɴ {message.chat.title}")
     if is_alexa:
-        await message.reply_text(f"ᴄʜᴀᴛʙɪᴛ ɪs ᴀʟʀᴇᴀᴅʏ ᴅɪsᴀʙʟᴇᴅ")
+        await message.reply_text(f"ᴄʜᴀᴛʙɪᴛ ɪs [💘 ɢʀᴏᴜᴩ 💘](https://t.me/DXinfo143) ᴀʟʀᴇᴀᴅʏ ᴅɪsᴀʙʟᴇᴅ")
     
 
 @client.on_message(
@@ -114,17 +114,17 @@ async def chatboton(client, message):
             )
     is_alexa = alexa.find_one({"chat_id": message.chat.id})
     if not is_alexa:           
-        await message.reply_text(f"ᴄʜᴀᴛʙɪᴛ ɪs ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ")
+        await message.reply_text(f"ᴅx ʟᴜᴄᴋy [💘 ɢʀᴏᴜᴩ 💘](https://t.me/DXinfo143)/n ᴄʜᴀᴛʙɪᴛ ɪs ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ")
     if is_alexa:
         alexa.delete_one({"chat_id": message.chat.id})
-        await message.reply_text(f"ᴄʜᴀᴛʙɪᴛ ɪs ᴇɴᴀʙʟᴇᴅ ʙʏ {message.from_user.mention()} ғᴏʀ ᴜsᴇʀs ɪɴ {message.chat.title}")
+        await message.reply_text(f"ᴄʜᴀᴛʙɪᴛ ɪs [💘 ɢʀᴏᴜᴩ 💘](https://t.me/DXinfo143) ᴇɴᴀʙʟᴇᴅ ʙʏ {message.from_user.mention()} ғᴏʀ ᴜsᴇʀs ɪɴ {message.chat.title}")
     
 
 @client.on_message(
     filters.command("chatbot", prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def chatbot(client, message):
-    await message.reply_text(f"**ᴜsᴇᴀɢᴇ:**\n/chatbot [on|off] ᴏɴʟʏ ɢʀᴏᴜᴘ")
+    await message.reply_text(f"**ᴜsᴇᴀɢᴇ:[💘 ɢʀᴏᴜᴩ 💘](https://t.me/DXinfo143)**\n/chatbot [on|off] ᴏɴʟʏ ɢʀᴏᴜᴘ")
 
     
 @client.on_message(
