@@ -58,13 +58,13 @@ async def chatbot(client, message):
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ ᴄʀᴇᴀᴛᴇʀ [⚡ ᴅx ʟᴜᴄᴋy ⚡](https://t.me/DX_LUCKY_143)
 ┣★ ʜᴇᴀʀᴛ ᴜs  [❤️ ꜱʜᴀyʀɪ ❤️](https://t.me/shayri_hit)
-┣★ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs [ᴏᴜʀ ᴏᴛʜᴇʀ ʙᴏᴛs](https://t.me/DX_info)
-┣★ ᴀʟᴇxᴀ ғᴇᴅ [💘 ɢʀᴏᴜᴩ 💘](https://t.me/DXinfo143)
+┣★ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs [all ʙᴏᴛs](https://t.me/DX_info)
+┣★ ʟᴜᴄᴋy ɢʀᴏᴜᴩ [💘 ɢʀᴏᴜᴩ 💘](https://t.me/DXinfo143)
 ┣★ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://github.com/LUCKY-KING-ROBOT/ID-CHATBOT)
 ┣★ ɴᴇᴛᴡᴏʀᴋ [🦋ᴅx ɴᴀᴛᴡᴀᴋ🦋](https://t.me/DX_info143)
 ┗━━━━━━━━━━━━━━━━━┛
-💞 
-IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [🌹 ᴅx ʟᴜᴄᴋy 🌹] @DX_LUCKY_143""",
+💞
+ɪꜰ ʜᴀᴠᴇ ᴀɴy qᴜᴇꜱᴛɪᴏɴ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ» ᴛᴏ » ᴍy » [🌹 ᴅx ʟᴜᴄᴋy 🌹] @DX_LUCKY_143""",
     ) 
 
 
