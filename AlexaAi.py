@@ -92,9 +92,9 @@ async def chatbotofd(client, message):
     is_alexa = alexa.find_one({"chat_id": message.chat.id})
     if not is_alexa:
         alexa.insert_one({"chat_id": message.chat.id})
-        await message.reply_text(f"ᴄʜᴀᴛʙɪᴛ ɪs [💘 ɢʀᴏᴜᴩ 💘](https://t.me/DXinfo143) ᴅɪsᴀʙʟᴇᴅ ʙʏ {message.from_user.mention()} ғᴏʀ ᴜsᴇʀs ɪɴ {message.chat.title}")
+        await message.reply_text(f"ᴄʜᴀᴛʙɪᴛ ɪs [💘 ɢʀᴏᴜᴩ 💘](@DXinfo143) ᴅɪsᴀʙʟᴇᴅ ʙʏ {message.from_user.mention()} ғᴏʀ ᴜsᴇʀs ɪɴ {message.chat.title}")
     if is_alexa:
-        await message.reply_text(f"ᴄʜᴀᴛʙɪᴛ ɪs [💘 ɢʀᴏᴜᴩ 💘](https://t.me/DXinfo143) ᴀʟʀᴇᴀᴅʏ ᴅɪsᴀʙʟᴇᴅ")
+        await message.reply_text(f"ᴄʜᴀᴛʙɪᴛ ɪs [💘 ɢʀᴏᴜᴩ 💘](@DXinfo143) ᴀʟʀᴇᴀᴅʏ ᴅɪsᴀʙʟᴇᴅ")
     
 
 @client.on_message(
@@ -114,10 +114,10 @@ async def chatboton(client, message):
             )
     is_alexa = alexa.find_one({"chat_id": message.chat.id})
     if not is_alexa:           
-        await message.reply_text(f"ᴅx ʟᴜᴄᴋy [💘 ɢʀᴏᴜᴩ 💘](https://t.me/DXinfo143)/n ᴄʜᴀᴛʙɪᴛ ɪs ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ")
+        await message.reply_text(f"ᴅx ʟᴜᴄᴋy [💘 ɢʀᴏᴜᴩ 💘](@DXinfo143)/n ᴄʜᴀᴛʙɪᴛ ɪs ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ")
     if is_alexa:
         alexa.delete_one({"chat_id": message.chat.id})
-        await message.reply_text(f"ᴄʜᴀᴛʙɪᴛ ɪs [💘 ɢʀᴏᴜᴩ 💘](https://t.me/DXinfo143) ᴇɴᴀʙʟᴇᴅ ʙʏ {message.from_user.mention()} ғᴏʀ ᴜsᴇʀs ɪɴ {message.chat.title}")
+        await message.reply_text(f"ᴄʜᴀᴛʙɪᴛ ɪs [💘 ɢʀᴏᴜᴩ 💘](@DXinfo143) ᴇɴᴀʙʟᴇᴅ ʙʏ {message.from_user.mention()} ғᴏʀ ᴜsᴇʀs ɪɴ {message.chat.title}")
     
 
 @client.on_message(
